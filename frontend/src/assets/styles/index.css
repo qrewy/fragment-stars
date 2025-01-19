@@ -1,0 +1,7 @@
+body {
+    background-color: #131618;
+}
+
+.inputs-container, .input-group, label, input, button {
+    color: #fff; /* ensure contrasting color */
+}

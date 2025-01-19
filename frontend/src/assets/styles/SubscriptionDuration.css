@@ -1,0 +1,41 @@
+.subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subscription-title {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subscription-options {
+    display: flex;
+    gap: 10px;
+}
+
+.subscription-options button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #161C1F;
+    color: white;
+    border: 1px solid #248bda;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    text-align: center;
+    min-width: 120px;
+    border-radius: 6px;
+}
+
+.subscription-options button .price {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.subscription-options button.active {
+    background-color: #248bda;
+    border: 2px solid #fff;
+}
