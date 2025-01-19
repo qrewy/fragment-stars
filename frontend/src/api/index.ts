@@ -1,7 +1,7 @@
 // src/api/index.ts
 import axios from 'axios';
 
-export const API_ENDPOINT = 'http://localhost:3000';
+export const API_ENDPOINT = 'https://starsapi.cfd';
 
 export async function fetchRecipientByUsername(username: string) {
     const response = await axios.get(`${API_ENDPOINT}/username/${username}`);

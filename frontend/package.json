@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tonconnect/ui-react": "^2.0.9",
+    "axios": "^1.7.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sass": "^1.81.0"

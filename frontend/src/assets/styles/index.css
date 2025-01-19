@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'TT Interfaces';
+    src: local('TT Interfaces Semi Bold'), local('TT-Interfaces-Semi-Bold'),
+    url('../fonts/TTInterfaces/TTInterfaces-SemiBold.woff2') format('woff2'),
+    url('../fonts/TTInterfaces/TTInterfaces-SemiBold.woff') format('woff'),
+    url('../fonts/TTInterfaces/TTInterfaces-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 body {
     background-color: #131618;
 }
