@@ -12,7 +12,7 @@ import starIcon from './assets/svg/star.svg'; // Import the SVG
 
 function App() {
     return (
-        <TonConnectUIProvider manifestUrl="https://raw.githubusercontent.com/ton-connect/demo-telegram-bot/refs/heads/master/tonconnect-manifest.json">
+        <TonConnectUIProvider  manifestUrl={`${window.location.origin}/tonconnect-manifest.json`}>
             <InnerApp />
         </TonConnectUIProvider>
     );
